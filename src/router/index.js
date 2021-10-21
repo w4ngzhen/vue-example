@@ -2,6 +2,7 @@ import VueRouter from 'vue-router';
 import TLayout from "../layout/t/TLayout";
 import TLayoutHomePage from "../views/layout/t/TLayoutHomePage";
 import TLayoutSubMenuPage from "../views/layout/t/TLayoutSubMenuPage";
+import ClassicalPortalPage from "../views/layout/portal/classical/ClassicalPortalPage";
 
 const router = new VueRouter({
   routes: [
@@ -19,6 +20,10 @@ const router = new VueRouter({
           component: TLayoutSubMenuPage
         }
       ]
+    },
+    {
+      path: '/classical-portal-layout',
+      component: ClassicalPortalPage
     }
   ]
 });
