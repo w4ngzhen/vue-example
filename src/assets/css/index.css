@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box; /* 统一盒子模型 */
+}
+
+html, /* 逗号，html和body分别都有该css样式 */
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    height: 100%;
+}

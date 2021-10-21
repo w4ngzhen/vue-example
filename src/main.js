@@ -2,6 +2,8 @@ import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
 
+import './assets/css/index.css';
+
 // 工具npm组件
 import lodash from 'lodash';
 
