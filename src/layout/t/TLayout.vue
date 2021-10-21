@@ -25,7 +25,7 @@
 <script>
 import TLayoutAside from "./TLayoutAside";
 import TLayoutHeader from "./TLayoutHeader";
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/vue-logo.svg';
 
 export default {
   name: "TLayout",
@@ -52,8 +52,7 @@ export default {
     },
     asideMenu() {
       return [
-        {path: '/t-layout/home', name: 'Home'},
-        {path: '/t-layout/table-list', name: 'TableList'},
+        {path: '/t-layout/home', name: '主页'},
         {
           path: '/t-layout/sub/', name: '子菜单', children: [
             {path: '/t-layout/sub-menu/sub-menu-page', name: '子菜单页面'}
